@@ -7,7 +7,7 @@ function FAQEditor() {
   useEffect(() => {
     const fetchFaqs = async () => {
       try {
-        const response = await fetch("http://localhost:8080/api/faq");
+        const response = await fetch("https://vidrieriafloridabackend-production.up.railway.app/api/faq");
         const data = await response.json();
         setFaqList(data);
       } catch (error) {
@@ -33,7 +33,7 @@ function FAQEditor() {
   const handleRemoveFaq = async (index) => {
     const faqToDelete = faqList[index];
     try {
-      const response = await fetch(`http://localhost:8080/api/faq/${faqToDelete.id}`, {
+      const response = await fetch(`https://vidrieriafloridabackend-production.up.railway.app/api/faq/${faqToDelete.id}`, {
         method: "DELETE",
       });
       if (response.ok) {
