@@ -1,0 +1,44 @@
+/* Estilos personalizados para el editor */
+.editor-container {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  color: white;
+}
+
+.editor-input {
+  background-color: #1f1f1f;
+  border: 1px solid #444;
+  color: #fff;
+}
+
+.editor-input::placeholder {
+  color: #aaa;
+}
+
+.editor-input:focus {
+  border-color: #646cff;
+  box-shadow: 0 0 0 0.2rem rgba(100, 108, 255, 0.25);
+}
+
+.card-custom {
+  background-color: #1f1f1f;
+  border: none;
+  color: white;
+}
+
+.card-custom .card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card-custom .btn-danger {
+  background-color: #c0392b;
+  border: none;
+}
+
+.card-custom .btn-danger:hover {
+  background-color: #e74c3c;
+}
