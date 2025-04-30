@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const API_URL = "https://vidrieriaflorida-front-u98r.vercel.app/api/presentacion";
+const API_URL = "https://vidrieriafloridabackend-production.up.railway.app/api/presentacion";
 
 const PresentacionManager = () => {
   const [presentacion, setPresentacion] = useState({

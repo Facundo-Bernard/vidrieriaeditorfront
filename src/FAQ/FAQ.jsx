@@ -58,7 +58,7 @@ function FAQEditor() {
 
     try {
       for (const faq of faqList) {
-        const response = await fetch("https://vidrieriaflorida-front-u98r.vercel.app/api/faq", {
+        const response = await fetch("https://vidrieriafloridabackend-production.up.railway.app/api/faq", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

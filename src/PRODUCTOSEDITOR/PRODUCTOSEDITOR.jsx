@@ -8,7 +8,7 @@ function PRODUCTOSEDITOR() {
     image: ""
   });
 
-  const backendUrl = "https://vidrieriaflorida-front-u98r.vercel.app";
+  const backendUrl = "https://vidrieriafloridabackend-production.up.railway.app";
 
   // Cargar productos al montar el componente
   useEffect(() => {
